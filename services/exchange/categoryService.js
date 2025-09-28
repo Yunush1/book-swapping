@@ -1,5 +1,4 @@
-const { get } = require('mongoose');
-const Category = require('../../models/Category');
+const Category = require('../../models/category');
 const logger = require('../../utils/logger');
 
 const createCategory = async (category) => {

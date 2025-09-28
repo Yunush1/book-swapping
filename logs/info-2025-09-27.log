@@ -1,0 +1,663 @@
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 00:59:00"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 00:59:01"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 00:59:03"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 00:59:03"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 00:59:03"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:00:28"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:00:28"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:00:30"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:00:30"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:00:30"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:00:52"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:00:53"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:00:55"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:00:55"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:00:55"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:01:33"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:01:33"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:01:36"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:01:36"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:01:36"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:02:49"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:02:50"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:02:52"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:02:52"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:02:52"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:04:59"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:05:00"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:05:04"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:05:04"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:05:04"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:05:33"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:05:34"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:05:36"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:05:36"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:05:36"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:05:51"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:05:52"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:05:54"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:05:54"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:05:54"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:06:23"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:06:24"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:06:27"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:06:27"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:06:27"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:06:49"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:06:50"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:06:52"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:06:52"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:06:54"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:06:54"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:06:54"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:07:35"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:07:36"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:07:38"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:07:38"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:07:38"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:07:53"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:07:54"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:07:56"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:07:56"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:07:56"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:08:20"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:08:21"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:08:22"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:08:22"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:08:22"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:08:23"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:08:24"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:08:25"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:08:26"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:08:28"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:08:28"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:08:28"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:08:50"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:08:50"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:08:52"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:08:52"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:08:52"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:09:07"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:09:07"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:09:09"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:09:09"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:09:09"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:10:10"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:10:11"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:10:13"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:10:13"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:10:13"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:10:50"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:10:51"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:10:53"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:10:53"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:10:53"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:13:22"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:13:22"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:13:25"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:13:25"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:13:25"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:17:15"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:17:16"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:17:19"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:17:19"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:17:19"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:17:24"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:17:24"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:17:27"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:17:27"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:17:27"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:18:08"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:18:09"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:18:11"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:18:11"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:18:11"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:18:40"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:18:40"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:18:42"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:18:42"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:18:42"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:18:46"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:18:47"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:18:49"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:18:49"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:18:49"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:22:46"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:22:46"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:22:48"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:22:48"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:22:48"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:23:52"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:23:52"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:23:55"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:23:55"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:23:55"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:26:08"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:26:08"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:26:11"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:26:11"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:26:11"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:26:14"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:26:14"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:26:16"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:26:16"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:26:16"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:27:30"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:27:30"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:27:33"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:27:33"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:27:33"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:28:24"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:28:24"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:28:27"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:28:27"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:28:27"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:28:43"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:28:44"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:28:46"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:28:46"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:28:46"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:30:33"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:30:33"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:30:35"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:30:35"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:30:35"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:30:54"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:30:54"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:30:56"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:30:56"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:30:56"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:31:31"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:31:32"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:31:33"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:31:33"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:31:33"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:31:35"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:31:36"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:31:38"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:31:38"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:31:38"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:31:41"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:31:41"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:31:43"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:31:43"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:31:43"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:32:06"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:32:06"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:32:08"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:32:08"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:32:08"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:32:34"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:32:34"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:32:36"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:32:36"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:32:36"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:33:00"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:33:00"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:33:03"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:33:03"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:33:03"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:33:49"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:33:49"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:33:51"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:33:51"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:33:51"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:34:06"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:34:06"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:34:08"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:34:08"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:34:08"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:35:36"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:35:36"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:35:38"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:35:38"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:35:38"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:35:58"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:35:59"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:36:00"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:36:00"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:36:00"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:36:44"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:36:45"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:36:46"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:36:46"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:36:46"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:37:05"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:37:06"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:37:07"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:37:07"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:37:07"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:37:32"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:37:33"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:37:35"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:37:35"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:37:35"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:38:04"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:38:05"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:38:07"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:38:07"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:38:07"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:39:19"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 01:39:19"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 01:39:22"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 01:39:22"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 01:39:22"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:40:02"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:40:08"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:40:10"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:40:44"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:40:49"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 01:40:54"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 09:00:55"}
+{"level":"warn","message":"dotenv","timestamp":"2025-09-27 09:01:01"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:15:21"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:15:22"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 09:15:22"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:15:22"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:15:26"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:15:26"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:15:26"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:19:25"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:19:26"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 09:19:26"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:19:26"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:19:30"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:19:30"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:19:30"}
+{"level":"info","message":"POST /api/auth/signup","timestamp":"2025-09-27 09:19:40"}
+{"level":"error","message":"ReferenceError: logger is not defined\n    at exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:19:5)\n    at Layer.handleRequest (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\router\\index.js:291:5)\n    at Function.handle (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\router\\index.js:186:3)","timestamp":"2025-09-27 09:19:40"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:20:22"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:20:23"}
+{"level":"warn","message":"[DB_CONNECTION]: ","timestamp":"2025-09-27 09:20:23"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:20:23"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:20:26"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:20:26"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:20:26"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:20:52"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:20:53"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:20:53"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:20:56"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:20:56"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:20:56"}
+{"level":"info","message":"POST /api/auth/signup","timestamp":"2025-09-27 09:20:59"}
+{"level":"info","message":"AuthController: signUpAstrologer request","timestamp":"2025-09-27 09:20:59"}
+{"level":"warn","message":"request data ","timestamp":"2025-09-27 09:20:59"}
+{"level":"error","message":"Access token generation failed:","timestamp":"2025-09-27 09:20:59"}
+{"level":"error","message":"AuthController: signUpAstrologer failed secretOrPrivateKey must have a value","stack":"Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at generateAccessToken (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\utils\\jwtService.js:13:25)\n    at Object.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\services\\authService.js:22:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:15:20)","timestamp":"2025-09-27 09:20:59"}
+{"level":"error","message":"TypeError: Invalid status code: undefined. Status code must be an integer.\n    at ServerResponse.status (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\express\\lib\\response.js:65:11)\n    at exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:21:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-27 09:20:59"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:21:57"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:21:58"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:21:58"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:22:04"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:22:05"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:22:05"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:22:08"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:22:08"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:22:08"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:23:10"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:23:12"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:23:12"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:23:15"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:23:15"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:23:15"}
+{"level":"info","message":"POST /api/auth/signup","timestamp":"2025-09-27 09:23:21"}
+{"level":"info","message":"AuthController: signUpAstrologer request","timestamp":"2025-09-27 09:23:21"}
+{"level":"warn","message":"request data ","timestamp":"2025-09-27 09:23:21"}
+{"level":"error","message":"AuthController: signUp user failed Class constructor ConflictError cannot be invoked without 'new'","stack":"TypeError: Class constructor ConflictError cannot be invoked without 'new'\n    at Object.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\services\\authService.js:14:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:15:20)","timestamp":"2025-09-27 09:23:21"}
+{"level":"error","message":"TypeError: Invalid status code: undefined. Status code must be an integer.\n    at ServerResponse.status (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\express\\lib\\response.js:65:11)\n    at exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:21:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-27 09:23:21"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:23:42"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:23:43"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:23:43"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:23:47"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:23:47"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:23:47"}
+{"level":"info","message":"POST /api/auth/signup","timestamp":"2025-09-27 09:23:53"}
+{"level":"info","message":"AuthController: signUpAstrologer request","timestamp":"2025-09-27 09:23:53"}
+{"level":"warn","message":"request data ","timestamp":"2025-09-27 09:23:53"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: bookSwap.users index: name_1 dup key: { name: \"Alpha\" }","index":0,"keyPattern":{"name":1},"keyValue":{"name":"Alpha"}},"index":0,"keyPattern":{"name":1},"keyValue":{"name":"Alpha"},"level":"error","message":"AuthController: signUp user failed E11000 duplicate key error collection: bookSwap.users index: name_1 dup key: { name: \"Alpha\" }","stack":"MongoServerError: E11000 duplicate key error collection: bookSwap.users index: name_1 dup key: { name: \"Alpha\" }\n    at InsertOneOperation.execute (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:207:20)\n    at async executeOperation (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:16)\n    at async Collection.insertOne (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\mongodb\\lib\\collection.js:157:16)","timestamp":"2025-09-27 09:23:54"}
+{"level":"error","message":"TypeError: Invalid status code: undefined. Status code must be an integer.\n    at ServerResponse.status (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\express\\lib\\response.js:65:11)\n    at exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:21:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-27 09:23:54"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:24:26"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:24:27"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:24:27"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:24:30"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:24:30"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:24:30"}
+{"level":"info","message":"POST /api/auth/signup","timestamp":"2025-09-27 09:24:34"}
+{"level":"info","message":"AuthController: signUpAstrologer request","timestamp":"2025-09-27 09:24:34"}
+{"level":"warn","message":"request data ","timestamp":"2025-09-27 09:24:34"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: bookSwap.users index: name_1 dup key: { name: \"Alpha\" }","index":0,"keyPattern":{"name":1},"keyValue":{"name":"Alpha"}},"index":0,"keyPattern":{"name":1},"keyValue":{"name":"Alpha"},"level":"error","message":"AuthController: signUp user failed E11000 duplicate key error collection: bookSwap.users index: name_1 dup key: { name: \"Alpha\" }","stack":"MongoServerError: E11000 duplicate key error collection: bookSwap.users index: name_1 dup key: { name: \"Alpha\" }\n    at InsertOneOperation.execute (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:207:20)\n    at async executeOperation (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:16)\n    at async Collection.insertOne (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\mongodb\\lib\\collection.js:157:16)","timestamp":"2025-09-27 09:24:42"}
+{"level":"error","message":"TypeError: Invalid status code: undefined. Status code must be an integer.\n    at ServerResponse.status (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\express\\lib\\response.js:65:11)\n    at exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:21:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-27 09:24:42"}
+{"level":"info","message":"POST /api/auth/signup","timestamp":"2025-09-27 09:24:53"}
+{"level":"info","message":"AuthController: signUpAstrologer request","timestamp":"2025-09-27 09:24:53"}
+{"level":"warn","message":"request data ","timestamp":"2025-09-27 09:24:53"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"email":"require","name":"require"},"states":{"default":{},"modify":{},"require":{"email":true,"name":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true,"date":true,"isBlock":true,"isDeleted":true},"modify":{"email":true,"name":true,"password":true,"updatedAt":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"68d7600d065a08a36a859931","address":{},"createdAt":"2025-09-27T03:54:53.430Z","date":"2025-09-27T03:54:53.430Z","email":"alphda@gmail.com","isBlock":false,"isDeleted":false,"name":"Alphda","password":"$2b$10$8F4dK8.csSymGthwnOo5/O.buuPofskFpEzXRRwcCmrELx0g4Ytti","updatedAt":"2025-09-27T03:54:53.430Z"},"level":"info","message":"[GENERATE ACCESS TOKEN]: ","timestamp":"2025-09-27 09:24:53"}
+{"level":"error","message":"Access token generation failed:","timestamp":"2025-09-27 09:24:53"}
+{"level":"error","message":"AuthController: signUp user failed secretOrPrivateKey must have a value","stack":"Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at generateAccessToken (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\utils\\jwtService.js:14:25)\n    at Object.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\services\\authService.js:22:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:15:20)","timestamp":"2025-09-27 09:24:53"}
+{"level":"error","message":"TypeError: Invalid status code: undefined. Status code must be an integer.\n    at ServerResponse.status (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\express\\lib\\response.js:65:11)\n    at exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:21:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-27 09:24:53"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:29:45"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:29:46"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:29:46"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:29:50"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:29:50"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:29:50"}
+{"level":"info","message":"POST /api/auth/signup","timestamp":"2025-09-27 09:30:07"}
+{"level":"info","message":"AuthController: signUpAstrologer request","timestamp":"2025-09-27 09:30:07"}
+{"level":"warn","message":"request data ","timestamp":"2025-09-27 09:30:07"}
+{"data":null,"errors":[],"level":"error","message":"AuthController: signUp user failed User already exists","stack":"Error: User already exists\n    at Object.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\services\\authService.js:14:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:15:20)","statusCode":409,"success":false,"timestamp":"2025-09-27 09:30:07"}
+{"level":"info","message":"POST /api/auth/signup","timestamp":"2025-09-27 09:30:21"}
+{"level":"info","message":"AuthController: signUpAstrologer request","timestamp":"2025-09-27 09:30:21"}
+{"level":"warn","message":"request data ","timestamp":"2025-09-27 09:30:21"}
+{"level":"error","message":"Access token generation failed:","timestamp":"2025-09-27 09:30:21"}
+{"level":"error","message":"AuthController: signUp user failed secretOrPrivateKey must have a value","stack":"Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at generateAccessToken (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\utils\\jwtService.js:13:25)\n    at Object.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\services\\authService.js:24:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:15:20)","timestamp":"2025-09-27 09:30:21"}
+{"level":"error","message":"TypeError: Invalid status code: undefined. Status code must be an integer.\n    at ServerResponse.status (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\express\\lib\\response.js:65:11)\n    at exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:21:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-27 09:30:21"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:31:40"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:31:40"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:31:41"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:31:44"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:31:44"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:31:44"}
+{"level":"info","message":"POST /api/auth/signup","timestamp":"2025-09-27 09:31:46"}
+{"level":"info","message":"AuthController: signUpAstrologer request","timestamp":"2025-09-27 09:31:46"}
+{"level":"warn","message":"request data ","timestamp":"2025-09-27 09:31:46"}
+{"data":null,"errors":[],"level":"error","message":"AuthController: signUp user failed User already exists","stack":"Error: User already exists\n    at Object.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\services\\authService.js:34:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:15:20)","statusCode":409,"success":false,"timestamp":"2025-09-27 09:31:46"}
+{"level":"info","message":"POST /api/auth/signup","timestamp":"2025-09-27 09:31:55"}
+{"level":"info","message":"AuthController: signUpAstrologer request","timestamp":"2025-09-27 09:31:55"}
+{"level":"warn","message":"request data ","timestamp":"2025-09-27 09:31:55"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: bookSwap.users index: name_1 dup key: { name: \"Alsphda\" }","index":0,"keyPattern":{"name":1},"keyValue":{"name":"Alsphda"}},"index":0,"keyPattern":{"name":1},"keyValue":{"name":"Alsphda"},"level":"error","message":"AuthController: signUp user failed E11000 duplicate key error collection: bookSwap.users index: name_1 dup key: { name: \"Alsphda\" }","stack":"MongoServerError: E11000 duplicate key error collection: bookSwap.users index: name_1 dup key: { name: \"Alsphda\" }\n    at InsertOneOperation.execute (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:207:20)\n    at async executeOperation (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:16)\n    at async Collection.insertOne (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\mongodb\\lib\\collection.js:157:16)","timestamp":"2025-09-27 09:31:55"}
+{"level":"error","message":"TypeError: Invalid status code: undefined. Status code must be an integer.\n    at ServerResponse.status (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\express\\lib\\response.js:65:11)\n    at exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:21:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-27 09:31:55"}
+{"level":"info","message":"POST /api/auth/signup","timestamp":"2025-09-27 09:32:07"}
+{"level":"info","message":"AuthController: signUpAstrologer request","timestamp":"2025-09-27 09:32:07"}
+{"level":"warn","message":"request data ","timestamp":"2025-09-27 09:32:07"}
+{"level":"error","message":"Access token generation failed:","timestamp":"2025-09-27 09:32:08"}
+{"level":"error","message":"AuthController: signUp user failed secretOrPrivateKey must have a value","stack":"Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at Object.generateAccessToken (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\utils\\jwtService.js:13:25)\n    at generateAuthTokens (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\services\\authService.js:16:34)\n    at Object.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\services\\authService.js:44:47)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:15:20)","timestamp":"2025-09-27 09:32:08"}
+{"level":"error","message":"TypeError: Invalid status code: undefined. Status code must be an integer.\n    at ServerResponse.status (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\express\\lib\\response.js:65:11)\n    at exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:21:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-27 09:32:08"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:33:26"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:33:27"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:33:27"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:33:30"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:33:30"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:33:30"}
+{"level":"info","message":"POST /api/auth/signup","timestamp":"2025-09-27 09:33:37"}
+{"level":"info","message":"AuthController: signUpAstrologer request","timestamp":"2025-09-27 09:33:37"}
+{"level":"warn","message":"request data ","timestamp":"2025-09-27 09:33:37"}
+{"level":"error","message":"Access token generation failed:","timestamp":"2025-09-27 09:33:37"}
+{"level":"error","message":"AuthService: signUp user failed secretOrPrivateKey must have a value","stack":"Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at Object.generateAccessToken (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\utils\\jwtService.js:13:25)\n    at generateAuthTokens (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\services\\authService.js:17:34)\n    at Object.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\services\\authService.js:45:47)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:15:20)","timestamp":"2025-09-27 09:33:37"}
+{"level":"error","message":"AuthController: signUp user failed secretOrPrivateKey must have a value","stack":"Error: secretOrPrivateKey must have a value\n    at module.exports [as sign] (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at Object.generateAccessToken (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\utils\\jwtService.js:13:25)\n    at generateAuthTokens (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\services\\authService.js:17:34)\n    at Object.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\services\\authService.js:45:47)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:15:20)","timestamp":"2025-09-27 09:33:37"}
+{"level":"error","message":"TypeError: Invalid status code: undefined. Status code must be an integer.\n    at ServerResponse.status (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\express\\lib\\response.js:65:11)\n    at exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:21:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-27 09:33:37"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:34:13"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:34:14"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:34:14"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:34:17"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:34:17"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:34:17"}
+{"level":"info","message":"POST /api/auth/signup","timestamp":"2025-09-27 09:34:19"}
+{"level":"info","message":"AuthController: signUpAstrologer request","timestamp":"2025-09-27 09:34:19"}
+{"level":"warn","message":"request data ","timestamp":"2025-09-27 09:34:19"}
+{"data":null,"errors":[],"level":"error","message":"AuthService: signUp user failed User already exists","stack":"Error: User already exists\n    at Object.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\services\\authService.js:35:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:15:20)","statusCode":409,"success":false,"timestamp":"2025-09-27 09:34:19"}
+{"data":null,"errors":[],"level":"error","message":"AuthController: signUp user failed User already exists","stack":"Error: User already exists\n    at Object.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\services\\authService.js:35:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:15:20)","statusCode":409,"success":false,"timestamp":"2025-09-27 09:34:19"}
+{"level":"info","message":"POST /api/auth/signup","timestamp":"2025-09-27 09:34:25"}
+{"level":"info","message":"AuthController: signUpAstrologer request","timestamp":"2025-09-27 09:34:25"}
+{"level":"warn","message":"request data ","timestamp":"2025-09-27 09:34:25"}
+{"level":"info","message":"AuthController: signUp user success","timestamp":"2025-09-27 09:34:25"}
+{"level":"error","message":"AuthController: signUp user failed Invalid status code: undefined. Status code must be an integer.","stack":"TypeError: Invalid status code: undefined. Status code must be an integer.\n    at ServerResponse.status (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\express\\lib\\response.js:65:11)\n    at exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:17:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-27 09:34:25"}
+{"level":"error","message":"TypeError: Invalid status code: undefined. Status code must be an integer.\n    at ServerResponse.status (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\express\\lib\\response.js:65:11)\n    at exports.register (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\authController.js:21:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-09-27 09:34:25"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:34:46"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:34:47"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:34:47"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:34:50"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:34:50"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:34:50"}
+{"level":"info","message":"POST /api/auth/signup","timestamp":"2025-09-27 09:34:56"}
+{"level":"info","message":"AuthController: signUpAstrologer request","timestamp":"2025-09-27 09:34:56"}
+{"level":"warn","message":"request data ","timestamp":"2025-09-27 09:34:56"}
+{"level":"info","message":"AuthController: signUp user success","timestamp":"2025-09-27 09:34:56"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:35:37"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:35:38"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:35:38"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:35:42"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:35:42"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:35:42"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:35:47"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:35:48"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:35:48"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:35:51"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:35:51"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:35:51"}
+{"level":"info","message":"POST /api/auth/signup","timestamp":"2025-09-27 09:35:57"}
+{"level":"info","message":"AuthController: signUpAstrologer request","timestamp":"2025-09-27 09:35:57"}
+{"level":"warn","message":"request data ","timestamp":"2025-09-27 09:35:57"}
+{"level":"info","message":"Access token generated for userId: 68d762a5b052557d6584a917","timestamp":"2025-09-27 09:35:58"}
+{"level":"info","message":"Refresh token generated for userId: 68d762a5b052557d6584a917","timestamp":"2025-09-27 09:35:58"}
+{"level":"info","message":"AuthController: signUp user success","timestamp":"2025-09-27 09:35:58"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:37:04"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:37:05"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:37:05"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:37:09"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:37:09"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:37:09"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:38:53"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:38:55"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:38:55"}
+{"cause":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-p3mrfbj-shard-00-00.0iccjcs.mongodb.net:27017":{"$clusterTime":null,"address":"ac-p3mrfbj-shard-00-00.0iccjcs.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":58041181,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-p3mrfbj-shard-00-01.0iccjcs.mongodb.net:27017":{"$clusterTime":null,"address":"ac-p3mrfbj-shard-00-01.0iccjcs.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":58039154,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-p3mrfbj-shard-00-02.0iccjcs.mongodb.net:27017":{"$clusterTime":null,"address":"ac-p3mrfbj-shard-00-02.0iccjcs.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":58025216,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-62btyx-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"errorLabelSet":{},"level":"error","message":"MongoDB Connection Error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"ac-p3mrfbj-shard-00-00.0iccjcs.mongodb.net:27017":{"$clusterTime":null,"address":"ac-p3mrfbj-shard-00-00.0iccjcs.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":58041181,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-p3mrfbj-shard-00-01.0iccjcs.mongodb.net:27017":{"$clusterTime":null,"address":"ac-p3mrfbj-shard-00-01.0iccjcs.mongodb.net:27017","arbiters":[],"electionId":null,"error":{"beforeHandshake":false,"errorLabelSet":{}},"hosts":[],"iscryptd":false,"lastUpdateTime":58039154,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"},"ac-p3mrfbj-shard-00-02.0iccjcs.mongodb.net:27017":{"$clusterTime":null,"address":"ac-p3mrfbj-shard-00-02.0iccjcs.mongodb.net:27017","arbiters":[],"electionId":null,"error":null,"hosts":[],"iscryptd":false,"lastUpdateTime":58025216,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxBsonObjectSize":null,"maxMessageSizeBytes":null,"maxWireVersion":0,"maxWriteBatchSize":null,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":"atlas-62btyx-shard-0","stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\mongoose\\lib\\connection.js:1165:11)\n    at NativeConnection.openUri (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\node_modules\\mongoose\\lib\\connection.js:1096:11)\n    at async connectDB (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\config\\db.js:5:5)\n    at async initializeDB (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\app.js:18:5)","timestamp":"2025-09-27 09:39:29"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:40:41"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:40:42"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:40:42"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:41:42"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:41:43"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:41:43"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:43:03"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:43:04"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:43:04"}
+{"code":"ETIMEOUT","hostname":"cluster0.0iccjcs.mongodb.net","level":"error","message":"MongoDB Connection Error: queryTxt ETIMEOUT cluster0.0iccjcs.mongodb.net","stack":"Error: queryTxt ETIMEOUT cluster0.0iccjcs.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"queryTxt","timestamp":"2025-09-27 09:44:37"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:44:45"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:44:46"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:44:46"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:44:50"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:44:50"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:44:50"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:45:21"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:45:23"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:45:23"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:45:31"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:45:31"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:45:31"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:48:00"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:48:01"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:48:01"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:49:25"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:49:25"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:49:25"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:50:26"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:50:27"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:50:27"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:50:31"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:50:31"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:50:31"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:51:18"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:51:18"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:51:19"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:51:23"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:51:23"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:51:23"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:51:50"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:51:50"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:51:52"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:51:55"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:51:55"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:51:55"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:52:18"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:52:18"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:52:20"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:52:23"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:52:23"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:52:23"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 09:53:08"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 09:53:08"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 09:53:09"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 09:53:12"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 09:53:12"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 09:53:12"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-27 09:53:12"}
+{"level":"info","message":"No admin found, will create new.","timestamp":"2025-09-27 09:53:13"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-27 09:53:13"}
+{"level":"info","message":"Admin user created successfully: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 09:53:13"}
+{"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-27 09:53:13"}
+{"level":"info","message":"SIGINT received. Closing MongoDB connection...","timestamp":"2025-09-27 10:05:44"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 10:08:33"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 10:08:33"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 10:08:34"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 10:08:35"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 10:08:35"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 10:08:35"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-27 10:08:35"}
+{"level":"info","message":"Found existing admin: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:08:36"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-27 10:08:36"}
+{"level":"info","message":"Admin user updated successfully: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:08:36"}
+{"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-27 10:08:36"}
+{"level":"info","message":"POST /api/auth/login-via-password","timestamp":"2025-09-27 10:09:29"}
+{"identifier":"alpshsddcdwa@wgmail.com","level":"info","message":"AuthController: loginByPassword request","timestamp":"2025-09-27 10:09:29"}
+{"error":"BadRequestError is not defined","level":"error","message":"AuthController: loginByPassword failed","timestamp":"2025-09-27 10:09:29"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 10:10:02"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 10:10:02"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 10:10:03"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 10:10:06"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 10:10:06"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 10:10:06"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-27 10:10:06"}
+{"level":"info","message":"Found existing admin: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:10:07"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-27 10:10:07"}
+{"level":"info","message":"Admin user updated successfully: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:10:07"}
+{"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-27 10:10:07"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 10:10:40"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 10:10:40"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 10:10:41"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 10:10:42"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 10:10:42"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 10:10:42"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-27 10:10:42"}
+{"level":"info","message":"Found existing admin: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:10:43"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-27 10:10:43"}
+{"level":"info","message":"Admin user updated successfully: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:10:43"}
+{"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-27 10:10:43"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 10:10:53"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 10:10:53"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 10:10:54"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 10:10:55"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 10:10:55"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 10:10:55"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-27 10:10:55"}
+{"level":"info","message":"Found existing admin: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:10:55"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-27 10:10:55"}
+{"level":"info","message":"Admin user updated successfully: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:10:55"}
+{"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-27 10:10:55"}
+{"level":"info","message":"POST /api/auth/login-via-password","timestamp":"2025-09-27 10:11:14"}
+{"identifier":"alpshsddcdwa@wgmail.com","level":"info","message":"AuthController: loginByPassword request","timestamp":"2025-09-27 10:11:14"}
+{"error":"Identifier (email or mobile) and password are required.","level":"error","message":"AuthController: loginByPassword failed","timestamp":"2025-09-27 10:11:14"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 10:13:51"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 10:13:51"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 10:13:52"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 10:13:53"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 10:13:53"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 10:13:53"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-27 10:13:53"}
+{"level":"info","message":"Found existing admin: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:13:54"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-27 10:13:54"}
+{"level":"info","message":"Admin user updated successfully: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:13:54"}
+{"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-27 10:13:54"}
+{"level":"info","message":"POST /api/auth/login-via-password","timestamp":"2025-09-27 10:13:58"}
+{"identifier":"alpshsddcdwa@wgmail.com","level":"info","message":"AuthController: loginByPassword request","timestamp":"2025-09-27 10:13:58"}
+{"error":"Identifier (email or mobile) and password are required.","level":"error","message":"AuthController: loginByPassword failed","timestamp":"2025-09-27 10:13:58"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 10:14:11"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 10:14:11"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 10:14:12"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 10:14:13"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 10:14:13"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 10:14:13"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-27 10:14:13"}
+{"level":"info","message":"POST /api/auth/login-via-password","timestamp":"2025-09-27 10:14:13"}
+{"identifier":"alpshsddcdwa@wgmail.com","level":"info","message":"AuthController: loginByPassword request","timestamp":"2025-09-27 10:14:13"}
+{"error":"Identifier (email or mobile) and password are required.","level":"error","message":"AuthController: loginByPassword failed","timestamp":"2025-09-27 10:14:13"}
+{"level":"info","message":"Found existing admin: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:14:13"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-27 10:14:13"}
+{"level":"info","message":"Admin user updated successfully: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:14:13"}
+{"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-27 10:14:13"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 10:14:57"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 10:14:57"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 10:14:58"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 10:14:59"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 10:14:59"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 10:14:59"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-27 10:14:59"}
+{"level":"info","message":"Found existing admin: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:15:00"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-27 10:15:00"}
+{"level":"info","message":"Admin user updated successfully: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:15:00"}
+{"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-27 10:15:00"}
+{"level":"info","message":"POST /api/auth/login-via-password","timestamp":"2025-09-27 10:15:01"}
+{"identifier":"alpshsddcdwa@wgmail.com","level":"info","message":"AuthController: loginByPassword request","timestamp":"2025-09-27 10:15:01"}
+{"error":"Identifier (email or mobile) and password are required.","level":"error","message":"AuthController: loginByPassword failed","timestamp":"2025-09-27 10:15:01"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 10:15:50"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 10:15:50"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 10:15:51"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 10:15:52"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 10:15:52"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 10:15:52"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-27 10:15:52"}
+{"level":"info","message":"Found existing admin: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:15:53"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-27 10:15:53"}
+{"level":"info","message":"Admin user updated successfully: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:15:53"}
+{"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-27 10:15:53"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 10:15:56"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 10:15:56"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 10:15:57"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 10:15:58"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 10:15:58"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 10:15:58"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-27 10:15:58"}
+{"level":"info","message":"Found existing admin: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:15:58"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-27 10:15:59"}
+{"level":"info","message":"Admin user updated successfully: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:15:59"}
+{"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-27 10:15:59"}
+{"level":"info","message":"POST /api/auth/login-via-password","timestamp":"2025-09-27 10:16:00"}
+{"identifier":"alpshsddcdwa@wgmail.com","level":"info","message":"AuthController: loginByPassword request","timestamp":"2025-09-27 10:16:00"}
+{"error":"crypto.randomBytes is not a function","level":"error","message":"AuthController: loginByPassword failed","timestamp":"2025-09-27 10:16:00"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 10:16:16"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 10:16:16"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 10:16:17"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 10:16:17"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 10:16:17"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 10:16:17"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-27 10:16:17"}
+{"level":"info","message":"Found existing admin: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:16:18"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-27 10:16:18"}
+{"level":"info","message":"Admin user updated successfully: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:16:18"}
+{"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-27 10:16:18"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 10:16:38"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 10:16:38"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 10:16:39"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 10:16:40"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 10:16:40"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 10:16:40"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-27 10:16:40"}
+{"level":"info","message":"Found existing admin: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:16:40"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-27 10:16:40"}
+{"level":"info","message":"Admin user updated successfully: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:16:41"}
+{"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-27 10:16:41"}
+{"level":"info","message":"POST /api/auth/login-via-password","timestamp":"2025-09-27 10:16:41"}
+{"identifier":"alpshsddcdwa@wgmail.com","level":"info","message":"AuthController: loginByPassword request","timestamp":"2025-09-27 10:16:41"}
+{"error":"generateAccessToken is not defined","level":"error","message":"AuthController: loginByPassword failed","timestamp":"2025-09-27 10:16:41"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-27 10:16:56"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-27 10:16:57"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-27 10:16:57"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-27 10:16:58"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-27 10:16:58"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-27 10:16:58"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-27 10:16:58"}
+{"level":"info","message":"Found existing admin: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:16:59"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-27 10:16:59"}
+{"level":"info","message":"Admin user updated successfully: 68d766b1a935720e749e2d63","timestamp":"2025-09-27 10:16:59"}
+{"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-27 10:16:59"}
+{"level":"info","message":"POST /api/auth/login-via-password","timestamp":"2025-09-27 10:17:00"}
+{"identifier":"alpshsddcdwa@wgmail.com","level":"info","message":"AuthController: loginByPassword request","timestamp":"2025-09-27 10:17:00"}
+{"level":"info","message":"Access token generated for userId: 68d762a5b052557d6584a917","timestamp":"2025-09-27 10:17:01"}
+{"level":"info","message":"Refresh token generated for userId: 68d762a5b052557d6584a917","timestamp":"2025-09-27 10:17:01"}
+{"level":"info","message":"AuthController: loginByPassword successful","timestamp":"2025-09-27 10:17:01"}

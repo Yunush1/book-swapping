@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\logs\\.ae11587d72cfa36f82cb8890cd510b6d2f7943ff-audit.json",
+    "files": [
+        {
+            "date": 1758914705245,
+            "name": "C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\logs\\exceptions-2025-09-27.log",
+            "hash": "83c05f3316bdb9345861ee5ebfa6585be7726f5b69926a351511d72a38fae6c2"
+        },
+        {
+            "date": 1759029086759,
+            "name": "C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\logs\\exceptions-2025-09-28.log",
+            "hash": "4f24f683177f1480661782ef7dea85d37c0b0c8deedadcb6041859b3b66b66f4"
+        },
+        {
+            "date": 1759084670180,
+            "name": "C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\logs\\exceptions-2025-09-29.log",
+            "hash": "25f754126994ac23d5c4dda78576d411a423b873a878bdb41c4b10b8823a5431"
+        }
+    ],
+    "hashType": "sha256"
+}

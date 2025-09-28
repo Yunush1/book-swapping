@@ -740,3 +740,32 @@
 {"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-29 01:38:37"}
 {"level":"info","message":"Admin user updated successfully: 68d8dd8c7c571e16188daa64","timestamp":"2025-09-29 01:38:38"}
 {"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-29 01:38:38"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-29 01:50:37"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-29 01:50:37"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-29 01:50:38"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-29 01:50:40"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-29 01:50:40"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-29 01:50:40"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-29 01:50:40"}
+{"level":"info","message":"Found existing admin: 68d8dd8c7c571e16188daa64","timestamp":"2025-09-29 01:50:40"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-29 01:50:40"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-29 01:51:20"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-29 01:51:20"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-29 01:51:22"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-29 01:51:23"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-29 01:51:23"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-29 01:51:23"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-29 01:51:23"}
+{"level":"info","message":"Found existing admin: 68d8dd8c7c571e16188daa64","timestamp":"2025-09-29 01:51:24"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-29 01:51:24"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-29 01:53:29"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-29 01:53:29"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-29 01:53:30"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-29 01:53:32"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-29 01:53:32"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-29 01:53:32"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-29 01:53:32"}
+{"level":"info","message":"Found existing admin: 68d8dd8c7c571e16188daa64","timestamp":"2025-09-29 01:53:32"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-29 01:53:32"}
+{"level":"info","message":"Admin user updated successfully: 68d8dd8c7c571e16188daa64","timestamp":"2025-09-29 01:53:33"}
+{"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-29 01:53:33"}

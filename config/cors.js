@@ -5,10 +5,7 @@ const allowedOrigins = (process.env.CLIENT_URLS || '')
   .filter(origin => origin.length > 0);
 const fallbackOrigins = [
   'http://localhost:3000',
-  'http://172.29.198.78:8080',
-  'http://localhost:5173',
-  'http://127.0.0.1:3000',
-  'https://advoca.lovable.app'
+  'https://book-swapping.netlify.app/',
 ];
 
 const corsOptions = {

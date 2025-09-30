@@ -65,15 +65,18 @@ const loginByPassword = async ({ identifier, password }) => {
         const isEmail = identifier.includes("@");
         const query = isEmail ? { email: identifier } : { mobileNumber: identifier };
         const userExists = await User.findOne(query).select("+password");
-        userExists.sessionId = crypto.randomBytes(16).toString('hex');
-        await userExists.save();
+        logger.info('AuthService: loginByPassword userExists', userExists);
+        
         if (!userExists) {
             throw new NotFoundError('User does not exist');
         }
+        userExists.sessionId = crypto.randomBytes(16).toString('hex');
+        await userExists.save();
         const isPasswordMatch = await bcrypt.compare(password, userExists.password);
         // if (!isPasswordMatch) {
         //     throw new BadRequestError('Password is incorrect');
         // }
+        logger.info('AuthService: loginByPassword successful');
         const { accessToken, refreshToken } = generateAuthTokens(userExists);
         return {
             success: true,
@@ -83,6 +86,7 @@ const loginByPassword = async ({ identifier, password }) => {
             refreshToken
         };
     } catch (error) {
+        logger.info("AuthService: loginByPassword failed", error);
         throw error;
     }
 }

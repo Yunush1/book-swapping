@@ -30,7 +30,7 @@ exports.loginByPassword = asyncHandler(async (req, res) => {
     const { email, mobileNumber, password, deviceId, longitude, latitude, os, modelNumber, fcmToken } = req.body;
     const identifier = email || mobileNumber;
     const requestOrigin = req.headers.origin;
-   logger.info("AuthController: loginByPassword request", { identifier, requestOrigin });
+    logger.info(`AuthController: loginByPassword request: ${JSON.stringify({ identifier, requestOrigin })}`);
     const response = await authService.loginByPassword({
       identifier,
       password,

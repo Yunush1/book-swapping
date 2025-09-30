@@ -1,0 +1,5 @@
+{"error":"Cannot set properties of null (setting 'sessionId')","level":"error","message":"AuthController: loginByPassword failed","timestamp":"2025-10-01 00:00:23"}
+{"error":"Cannot set properties of null (setting 'sessionId')","level":"error","message":"AuthController: loginByPassword failed","timestamp":"2025-10-01 00:01:57"}
+{"error":"Cannot set properties of null (setting 'sessionId')","level":"error","message":"AuthController: loginByPassword failed","timestamp":"2025-10-01 00:03:05"}
+{"error":"User does not exist","level":"error","message":"AuthController: loginByPassword failed","timestamp":"2025-10-01 00:05:32"}
+{"level":"error","message":"[REQUEST CONTROLLER]: Error found while updating status: logger.infor is not a function","stack":"TypeError: logger.infor is not a function\n    at updateRequestStatus (C:\\Users\\dell\\Desktop\\books\\bookswap-backend\\controller\\exhanges\\requestControoler.js:48:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-01 00:09:01"}

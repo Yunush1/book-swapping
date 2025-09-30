@@ -63,8 +63,28 @@ const deleteRequest = async (id, user) => {
     }
 }
 
+const updateRequestStatus = async (id, status) => {
+    try {
+        const result = await Request.findByIdAndUpdate(id, { status })
+        logger.info('[UPDATE STATUS]: Status updated successfully...')
+        return {
+            status: 200,
+            success: true,
+            message: 'Status updated successfully',
+        }
+    } catch (error) {
+        logger.info(`[Requestupdate status] Somthing went wrong`, error)
+        return {
+            status: 400,
+            success: false,
+            message: 'Somthing went wrong ',
+        }
+    }
+}
+
 module.exports = {
     createRequest,
     getRequests,
-    deleteRequest
+    deleteRequest,
+    updateRequestStatus,
 }

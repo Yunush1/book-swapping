@@ -769,3 +769,25 @@
 {"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-29 01:53:32"}
 {"level":"info","message":"Admin user updated successfully: 68d8dd8c7c571e16188daa64","timestamp":"2025-09-29 01:53:33"}
 {"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-29 01:53:33"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-29 02:19:19"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-29 02:19:19"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-29 02:19:21"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-29 02:19:22"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-29 02:19:22"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-29 02:19:22"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-29 02:19:22"}
+{"level":"info","message":"Found existing admin: 68d8dd8c7c571e16188daa64","timestamp":"2025-09-29 02:19:23"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-29 02:19:23"}
+{"level":"info","message":"Admin user updated successfully: 68d8dd8c7c571e16188daa64","timestamp":"2025-09-29 02:19:24"}
+{"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-29 02:19:24"}
+{"level":"info","message":"Bootstrapping AstroUp backend...","timestamp":"2025-09-29 02:19:28"}
+{"level":"warn","message":"dotenv loaded for environment: development","timestamp":"2025-09-29 02:19:28"}
+{"level":"info","message":"Server running on port 5100 in development mode","timestamp":"2025-09-29 02:19:29"}
+{"level":"info","message":"MongoDB Connected...","timestamp":"2025-09-29 02:19:30"}
+{"level":"info","message":"applyGlobalPlugins with pagination v2...","timestamp":"2025-09-29 02:19:30"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-09-29 02:19:30"}
+{"level":"info","message":"Starting admin user seeder...","timestamp":"2025-09-29 02:19:30"}
+{"level":"info","message":"Found existing admin: 68d8dd8c7c571e16188daa64","timestamp":"2025-09-29 02:19:30"}
+{"level":"info","message":"Password hashed successfully.","timestamp":"2025-09-29 02:19:31"}
+{"level":"info","message":"Admin user updated successfully: 68d8dd8c7c571e16188daa64","timestamp":"2025-09-29 02:19:31"}
+{"level":"info","message":"Admin seeder finished.","timestamp":"2025-09-29 02:19:31"}

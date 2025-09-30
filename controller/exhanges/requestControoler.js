@@ -39,8 +39,26 @@ const deleteRequest = async (req, res) => {
     }
 }
 
+const updateRequestStatus = async (req, res) => {
+    try {
+        const { status } = req.body;
+        const { id } = req.params;
+        logger.info('Request status updated');
+        const result = await requistService.updateRequestStatus(id, status)
+        logger.info('Request status updated successfully...')
+        return res.status(result.status).json(result);
+    } catch (error) {
+        logger.error(`[REQUEST CONTROLLER]: Error found while updating status:`, error);
+        return {
+            status: error.status,
+            message: error.message
+        }
+    }
+}
+
 module.exports = {
     createRequest,
     getRequests,
-    deleteRequest
+    deleteRequest,
+    updateRequestStatus
 }

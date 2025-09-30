@@ -3,5 +3,6 @@ const router = require('express').Router();
 router.post('/', requestController.createRequest);
 router.get('/', requestController.getRequests);
 router.delete('/:id', requestController.deleteRequest);
+router.put('/:id',requestController.updateRequestStatus)
 
 module.exports = router;

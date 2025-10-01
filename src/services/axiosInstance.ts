@@ -1,4 +1,4 @@
-import axios, { AxiosInstance,  AxiosResponse } from "axios";
+import axios, { AxiosInstance, AxiosResponse } from "axios";
 
 // Create Axios instance
 const api: AxiosInstance = axios.create({
@@ -26,12 +26,30 @@ api.interceptors.request.use(
 api.interceptors.response.use(
   (response: AxiosResponse) => response,
   (error) => {
-    // Handle global errors (like 401, 403, etc.)
     if (error.response?.status === 401) {
+      // Handle unauthorized error
+      getNewAccessToken({refreshToken: localStorage.getItem('refreshToken')});
       console.warn("Unauthorized - maybe redirect to login?");
+    }
+    if(error.response?.status === 403) {
+      // Handle forbidden error
+      console.warn("Forbidden - maybe redirect to login?");
     }
     return Promise.reject(error);
   }
 );
+
+// Get new Access token
+
+// api.interceptors.response.use((response) => response, async (error) => {})
+const getNewAccessToken = async ({refreshToken}) => {
+  try {
+    const res = await api.get(`auth/get-access-token?refreshToken=${refreshToken}`);
+    console.log('res', res)
+    localStorage.setItem('accessToken', res.data.accessToken);
+  } catch (error) {
+    console.log('error', error)
+  }
+};
 
 export default api;

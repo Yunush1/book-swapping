@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, ChangeEvent, FormEvent, useEffect } from 'react';
-import { Upload, Book, User, Calendar, Info, Tag, FileText, Camera } from 'lucide-react';
+import { Upload, Book, User, Info, Tag, Camera } from 'lucide-react';
 import { createExchange } from '@/services/exchanges/exchanges';
 import { getCategories } from '@/services/exchanges/category';
 import { fileUpload } from '@/services/fileUpload';
@@ -141,14 +141,14 @@ const BookExchangeForm: React.FC = () => {
 
     // Mock categories - replace with actual API call
     const [categories, setCategories] = useState<Category[]>([
-        { _id: '1', name: 'Literature & Fiction' },
-        { _id: '2', name: 'Academic Textbooks' },
-        { _id: '3', name: 'Science & Technology' },
-        { _id: '4', name: 'History & Biography' },
-        { _id: '5', name: 'Arts & Humanities' },
-        { _id: '6', name: 'Business & Economics' },
-        { _id: '7', name: 'Health & Medicine' },
-        { _id: '8', name: 'Children & Young Adult' }
+        // { _id: '1', name: 'Literature & Fiction' },
+        // { _id: '2', name: 'Academic Textbooks' },
+        // { _id: '3', name: 'Science & Technology' },
+        // { _id: '4', name: 'History & Biography' },
+        // { _id: '5', name: 'Arts & Humanities' },
+        // { _id: '6', name: 'Business & Economics' },
+        // { _id: '7', name: 'Health & Medicine' },
+        // { _id: '8', name: 'Children & Young Adult' }
     ]);
 
     const universities: string[] = [
@@ -198,6 +198,7 @@ const BookExchangeForm: React.FC = () => {
         (async () => {
             try {
                 const { data } = await getCategories();
+
                 setCategories((prev) => [
                     ...prev,
                     ...data.categories.map((item: any) => ({
@@ -205,7 +206,7 @@ const BookExchangeForm: React.FC = () => {
                         name: item.name,
                     })),
                 ]);
-                console.log('category', data)
+                // console.log('category', data)
             } catch (error) {
                 console.error(error)
             }
@@ -242,7 +243,7 @@ const BookExchangeForm: React.FC = () => {
         }
     };
 
-    const handleImageUpload =async (e: ChangeEvent<HTMLInputElement>) => {
+    const handleImageUpload = async (e: ChangeEvent<HTMLInputElement>) => {
         const file = e.target.files?.[0];
         if (file) {
             // Validate file type
@@ -286,7 +287,7 @@ const BookExchangeForm: React.FC = () => {
             // };
             // reader.readAsDataURL(file);
 
-            
+
         }
     };
 
@@ -329,7 +330,7 @@ const BookExchangeForm: React.FC = () => {
         try {
             // Simulate API call
             const res = await createExchange(formData);
-            
+
             await new Promise(resolve => setTimeout(resolve, 2000));
 
             // Prepare data for API (remove empty strings, format dates)
@@ -392,7 +393,7 @@ const BookExchangeForm: React.FC = () => {
                     </div>
 
                     {/* Form */}
-                    <form onSubmit={handleSubmit} className="p-8 space-y-8">
+                    <form onSubmit={handleSubmit} className="p-8 dark:bg-gray-800 dark:text-white dark:bg-black space-y-8">
                         {/* Basic Information */}
                         <div className="space-y-6">
                             <h2 className="text-2xl font-semibold text-gray-800 flex items-center">
@@ -402,7 +403,7 @@ const BookExchangeForm: React.FC = () => {
 
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                                    <label className="block text-sm font-medium text-black dark:text-gray-100 mb-2">
                                         Book Title *
                                     </label>
                                     <input
@@ -418,7 +419,7 @@ const BookExchangeForm: React.FC = () => {
                                 </div>
 
                                 <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                                    <label className="block text-sm font-medium text-black dark:text-gray-100 mb-2">
                                         Author
                                     </label>
                                     <input
@@ -434,7 +435,7 @@ const BookExchangeForm: React.FC = () => {
                                 </div>
 
                                 <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                                    <label className="block text-sm font-medium text-black dark:text-gray-100 mb-2">
                                         Genre
                                     </label>
                                     <input
@@ -450,7 +451,7 @@ const BookExchangeForm: React.FC = () => {
                                 </div>
 
                                 <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                                    <label className="block text-sm font-medium text-black dark:text-gray-100 mb-2">
                                         Category *
                                     </label>
                                     <select
@@ -461,8 +462,8 @@ const BookExchangeForm: React.FC = () => {
                                     >
                                         <option value="">Select a category</option>
 
-                                        {categories.map((category: Category) => (
-                                            <option key={category._id} value={category._id}>
+                                        {categories.map((category: Category, index:number) => (
+                                            <option key={index.toString()} value={category._id}>
                                                 {category.name}
                                             </option>
                                         ))}
@@ -472,7 +473,7 @@ const BookExchangeForm: React.FC = () => {
                             </div>
 
                             <div>
-                                <label className="block text-sm font-medium text-gray-700 mb-2">
+                                <label className="block text-sm font-medium text-black dark:text-gray-100 mb-2">
                                     Description
                                 </label>
                                 <textarea
@@ -493,14 +494,14 @@ const BookExchangeForm: React.FC = () => {
 
                         {/* Book Details */}
                         <div className="space-y-6">
-                            <h2 className="text-2xl font-semibold text-gray-800 flex items-center">
+                            <h2 className="text-2xl font-semibold dark:text-white text-gray-800 flex items-center">
                                 <Tag className="mr-3 text-blue-600" size={24} />
                                 Book Details
                             </h2>
 
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                                 <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                                    <label className="block text-sm font-medium text-black dark:text-gray-100 mb-2">
                                         Condition
                                     </label>
                                     <select
@@ -516,7 +517,7 @@ const BookExchangeForm: React.FC = () => {
                                 </div>
 
                                 <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                                    <label className="block text-sm font-medium text-black dark:text-gray-100 mb-2">
                                         Specification
                                     </label>
                                     <select
@@ -534,7 +535,7 @@ const BookExchangeForm: React.FC = () => {
                                 </div>
 
                                 <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                                    <label className="block text-sm font-medium text-black dark:text-gray-100 mb-2">
                                         Purchase Date
                                     </label>
                                     <input
@@ -558,7 +559,7 @@ const BookExchangeForm: React.FC = () => {
 
                             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                                 <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                                    <label className="block text-sm font-medium text-black dark:text-gray-100 mb-2">
                                         University
                                     </label>
                                     <select
@@ -575,7 +576,7 @@ const BookExchangeForm: React.FC = () => {
                                 </div>
 
                                 <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                                    <label className="block text-sm font-medium text-black dark:text-gray-100 mb-2">
                                         Branch/Course
                                     </label>
                                     <select
@@ -592,7 +593,7 @@ const BookExchangeForm: React.FC = () => {
                                 </div>
 
                                 <div>
-                                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                                    <label className="block text-sm font-medium text-black dark:text-gray-100 mb-2">
                                         Year
                                     </label>
                                     <select
@@ -612,7 +613,7 @@ const BookExchangeForm: React.FC = () => {
 
                         {/* Image Upload */}
                         <div className="space-y-6">
-                            <h2 className="text-2xl font-semibold text-gray-800 flex items-center">
+                            <h2 className="text-2xl font-semibold dark:text-white text-gray-800 flex items-center">
                                 <Camera className="mr-3 text-blue-600" size={24} />
                                 Book Image
                             </h2>

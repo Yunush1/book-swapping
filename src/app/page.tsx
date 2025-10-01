@@ -4,7 +4,7 @@ import { Search, Plus, Book, User, LogOut, Bell, Eye, Heart, MessageSquare, Filt
 import { loginUser, register } from '@/services/auth/auth';
 import { userAgent } from 'next/server';
 import { sign } from 'crypto';
-import { createExchangeRequest, getExchanges, getMyExchangeRequest, getMyExchanges } from '@/services/exchanges/exchanges';
+import { createExchangeRequest, getExchanges, getMyExchangeRequest, getMyExchanges, updateExchangeRequestStatus } from '@/services/exchanges/exchanges';
 import { useRouter } from 'next/navigation';
 
 // Context for global state management
@@ -31,7 +31,7 @@ const AppContext = createContext({
   addBook: (book: any) => { },
   updateBook: (book: any) => { },
   addRequest: (request: any) => { },
-  updateRequestStatus: (id: number, status: Number) => { },
+  updateRequestStatus: (id: string, status: Number) => { },
   isLoading: false,
   error: null,
 });
@@ -604,7 +604,8 @@ const MyBooks = () => {
 const RequestsPage = () => {
   const { requests, updateRequestStatus, isLoading, user } = useAppContext();
   const [activeTab, setActiveTab] = useState('received');
-
+  const [updatedStatus, setUpdatedStatus] = useState<Number>(0);
+  const [acceptingRequest, setAcceptingRequest] = useState(false);
   const STATUS = {
     ON_GOING: 400,
     COMPLETED: 401,
@@ -639,10 +640,15 @@ const RequestsPage = () => {
   const sentRequests = requests.filter(req => req.requesterId === user?.id);
 
   const handleRequestAction = async (requestId: string, action: Number) => {
+    setAcceptingRequest(true);
     try {
-      updateRequestStatus(Number(requestId), action);
+      setUpdatedStatus(Number(action))
+      await updateRequestStatus(requestId, action);
+      setAcceptingRequest(false);
     } catch (error) {
       console.error('Error updating request status:', error);
+    } finally {
+      setAcceptingRequest(false);
     }
   };
 
@@ -728,7 +734,7 @@ const RequestsPage = () => {
             <div>
               <p className="text-amber-600 text-sm font-medium">Pending</p>
               <p className="text-2xl font-bold text-amber-900">
-                {receivedRequests.filter(r => r.status === 'pending').length}
+                {receivedRequests.filter(r => r.status === STATUS.PENDING).length}
               </p>
             </div>
             <div className="p-2 bg-amber-200 rounded-lg">
@@ -797,7 +803,7 @@ const RequestsPage = () => {
                   </p>
                 </div>
               ) : (
-                receivedRequests.map((request, index) => (
+                receivedRequests?.map((request, index) => (
                   <div
                     key={request.id}
                     className="bg-gray-50 border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:border-gray-300"
@@ -805,11 +811,11 @@ const RequestsPage = () => {
                   >
                     <div className="flex items-start space-x-6">
                       {/* Book Image */}
-                      {request.bookImage && (
+                      {request?.bookImage && (
                         <div className="flex-shrink-0">
                           <img
-                            src={request.bookImage}
-                            alt={request.bookTitle}
+                            src={request?.bookImage}
+                            alt={request?.bookTitle}
                             className="w-20 h-26 object-cover rounded-lg shadow-md border border-gray-200"
                           />
                         </div>
@@ -820,19 +826,19 @@ const RequestsPage = () => {
                         <div className="flex items-start justify-between mb-4">
                           <div className="flex items-center space-x-4">
                             <img
-                              src={request.user.image}
-                              alt={request.user.name}
+                              src={request?.user?.image || 'https://randomuser.me/api/portraits/men/75.jpg'}
+                              alt={request?.user?.name}
                               className="w-12 h-12 rounded-full border-2 border-white shadow-md"
                             />
                             <div>
-                              <h3 className="text-xl font-bold text-gray-900">{request.user.name}</h3>
+                              <h3 className="text-xl font-bold text-gray-900">{request?.user?.name}</h3>
                               <p className="text-gray-600">wants to borrow</p>
-                              <p className="text-lg font-semibold text-blue-600">"{request.exchange.title}"</p>
+                              <p className="text-lg font-semibold text-blue-600">"{request?.exchange?.title}"</p>
                             </div>
                           </div>
                           <div className="flex items-center space-x-2">
                             <span className={`inline-flex items-center space-x-1 px-3 py-1 rounded-full text-sm font-medium border ${getStatusColor(request.status)}`}>
-                              {getStatusIcon(request.status)}
+                              {getStatusIcon(request?.status)}
                               <span>{getRequestStatus(request.status).charAt(0).toUpperCase() + getRequestStatus(request.status).slice(1)}</span>
                             </span>
                           </div>
@@ -869,11 +875,12 @@ const RequestsPage = () => {
                                 Decline
                               </button>
                               <button
+                                disabled={request.status !== STATUS.PENDING}
                                 onClick={() => handleRequestAction(request._id, STATUS.ACCEPTED)}
-                                className="inline-flex items-center px-6 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-all duration-200 font-medium shadow-md hover:shadow-lg"
+                                className={`inline-flex items-center px-6 py-2 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-all duration-200 font-medium shadow-md hover:shadow-lg ${request.status !== STATUS.PENDING ? 'opacity-50 cursor-not-allowed' : ''}`}
                               >
                                 <Check className="w-4 h-4 mr-2" />
-                                Accept
+                                {updatedStatus === STATUS.ACCEPTED ? 'Accepting...' : 'Accept'}
                               </button>
                             </div>
                           )}
@@ -1352,10 +1359,17 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
     setMyBooks(myBooks.map(book => book.id === updatedBook.id ? updatedBook : book));
   };
 
-  const updateRequestStatus = (requestId: number, status: number) => {
-    setRequests(requests.map(request =>
-      request.id === requestId ? { ...request, status } : request
-    ));
+  const updateRequestStatus = async (requestId: string, status: number) => {
+    console.log('updateRequestStatus', requestId, status)
+    try {
+      setRequests(requests.map(request =>
+        request.id === requestId ? { ...request, status } : request
+      ));
+
+      return await updateExchangeRequestStatus(requestId, status);
+    } catch (error) {
+      console.log('Error updating request status:', error);
+    }
   };
 
   const value = {

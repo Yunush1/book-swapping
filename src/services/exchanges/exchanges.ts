@@ -63,3 +63,13 @@ export const getMyExchangeRequest = async ()=>{
         return error
     }
 }
+
+export const updateExchangeRequestStatus = async (requestId: string, action: Number) => {
+  try {
+    const res = await api.put(`/requests/${requestId}`, { status: action });
+    return res;
+  } catch (error) {
+    console.error(error);
+    return error;
+  }
+}

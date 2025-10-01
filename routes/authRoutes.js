@@ -10,7 +10,7 @@ router.post('/login-via-password', authController.loginByPassword);
 // router.post('/verify-otp', authController.verifyOtp);
 // router.post('/send-otp', authController.loginByOTP);
 router.post('/signup',authController.register);
-// router.get('/get-access-token',authController.getAccssToken);
+router.get('/get-access-token',authController.getAccssToken);
 // const authenticate = require('../middlewares/authMiddleware');
 
 // router.post('/update-password',authenticate, authController.updatePassword);

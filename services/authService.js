@@ -66,7 +66,7 @@ const loginByPassword = async ({ identifier, password }) => {
         const query = isEmail ? { email: identifier } : { mobileNumber: identifier };
         const userExists = await User.findOne(query).select("+password");
         logger.info('AuthService: loginByPassword userExists', userExists);
-        
+
         if (!userExists) {
             throw new NotFoundError('User does not exist');
         }
@@ -82,7 +82,7 @@ const loginByPassword = async ({ identifier, password }) => {
             success: true,
             message: 'Login successful',
             user: userExists,
-            accessToken, 
+            accessToken,
             refreshToken
         };
     } catch (error) {
@@ -91,7 +91,47 @@ const loginByPassword = async ({ identifier, password }) => {
     }
 }
 
+const getAccessToken = async ({ refreshToken }) => {
+    try {
+        logger.info("AuthService: getAccessToken request: ");
+        const decoded = await jwtService.verifyRefreshToken({ token: refreshToken });
+        logger.info("AuthService: getAccessToken decoded: ", decoded);
+        const user = await User.findById(decoded._id);
+        if (!user) {
+            throw new NotFoundError('User not found');
+        }
+        const { accessToken } = generateAuthTokens(user, true);
+        return {
+            success: true,
+            accessToken
+        };
+    } catch (error) {
+        logger.error("AuthService: getAccessToken failed", error);
+        throw error;
+    }
+}
+
+const logout = async (userId) => {
+    try {
+        const user = await User.findById(userId);
+        if (!user) {
+            throw new NotFoundError('User not found');
+        }
+        user.sessionId = null;
+        await user.save();
+        return {
+            success: true,
+            message: 'Logout successful',
+        };
+    } catch (error) {
+        logger.error("AuthService: logout failed", error);
+        throw error;
+    }
+}
+
 module.exports = {
     register,
-    loginByPassword
+    loginByPassword,
+    getAccessToken,
+    logout
 }

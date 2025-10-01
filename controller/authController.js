@@ -57,3 +57,15 @@ exports.loginByPassword = asyncHandler(async (req, res) => {
     return res.status(400).json(responseBody);
   }
 });
+
+exports.getAccssToken = asyncHandler(async (req, res) => {
+  try {
+    const { refreshToken } = req.query
+    logger.info(`AuthController: getAccessToken request`);
+    const result = await authService.getAccessToken({refreshToken})
+    return res.status(200).json(result)
+  } catch (error) {
+    logger.error("AuthController: getAccessToken failed", { error: error?.message });
+    return res.status(400).json({ success: false, message: error.message })
+  }
+});

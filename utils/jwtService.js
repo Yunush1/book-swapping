@@ -59,16 +59,17 @@ module.exports = {
     }
   },
 
-  verifyRefreshToken: async (token) => {
+  verifyRefreshToken: async ({token}) => {
     try {
+      logger.info(" Verify Refresh token ", token)
       const decoded = jwt.verify(token, JWT_SECRET);
       if (decoded.tokenType !== 'refresh') {
         throw new Error('Invalid token type - refresh token required');
       }
-
+      logger.info(" decoded ", decoded)
       const user = await User.findById(decoded._id).lean();
       if (!user) throw new UnauthorizedError("User not found");
-      if (decoded.sessionId !== user.currentSessionId) {
+      if (decoded.sessionId !== user.sessionId) {
         throw new UnauthorizedError("Session expired. Please log in again.");
       }
       logger.info(`Refresh token verified: userId=${decoded._id}`);

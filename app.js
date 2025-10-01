@@ -43,7 +43,7 @@ app.get("/", async (req, res) => {
 // Global error handler
 app.use((err, req, res, next) => {
   logger.error(err.stack);
-  res.status(500).json({ error: err.message });
+  res.status(err.statusCode).json({ error: err.message });
 });
 
 // Graceful shutdown

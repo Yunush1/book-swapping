@@ -25,10 +25,28 @@ const getRequests = async ({ user }) => {
     try {
         const requests = await Request.find({
             $or: [
-                { user: user },
-                { owner: user }
+                { user: user }
             ]
         }).populate('user owner exchange');
+        logger.info('[getRequests] Requests fetched successfully');
+        return {
+            status: 200,
+            message: 'Requests fetched successfully',
+            data: requests.reverse()
+        }
+    } catch (error) {
+        logger.error(`[getRequests] Error fetching requests: ${error.message}`);
+        return {
+            status: 400,
+            message: 'Error fetching requests',
+            data: { message: error.message }
+        }
+    }
+}
+
+const getReceivedRequests = async ({ user }) => {
+    try {
+        const requests = await Request.find({ owner: user }).populate('user owner exchange');
         logger.info('[getRequests] Requests fetched successfully');
         return {
             status: 200,
@@ -87,4 +105,5 @@ module.exports = {
     getRequests,
     deleteRequest,
     updateRequestStatus,
+    getReceivedRequests
 }

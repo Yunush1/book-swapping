@@ -23,18 +23,41 @@ const Enums = {
             OTHER: 3
         },
     },
+    SERVICE: {
+        TYPE: {
+            CHAT: 400,
+            VIDEO: 401,
+            CALL: 402,
+            PALMISTRY: 403,
+            REPORT: 404,
+            POOJA: 405,
+            LIVE: 406,
+        },
+        STATUS: {
+            PENDING: 500,
+            COMPLETED: 501,
+            CANCELLED: 502,
+            NO_SHOW: 503,
+            ONGOING: 504,
+        },
+        FOLLOW: {
+            PENDING: 505,
+            ACCEPTED: 506,
+            REJECTED: 507,
+        },
+    },
     EXCHANGE: {
-        EXCHANGE_STATUS:{
+        EXCHANGE_STATUS: {
             ON_GOING: 400,
             COMPLETED: 401,
-            OPEN:402,
-            PENDING:403,
-            ACCEPTED:404,
-            DECLIENED:405,
-            REQUEST:406
+            OPEN: 402,
+            PENDING: 403,
+            ACCEPTED: 404,
+            DECLIENED: 405,
+            REQUEST: 406
         },
-        SPECIFICATION:{
-            SCINECE:{
+        SPECIFICATION: {
+            SCINECE: {
                 MATHS: 500,
                 PHYSICS: 501,
                 CHEMISTRY: 502
@@ -47,7 +70,7 @@ const Enums = {
                 LITERATURE: 604,
                 POETRY: 605,
             },
-            COMMERCE:{
+            COMMERCE: {
                 ACCOUNTING: 700,
                 MARKETING: 701,
                 FINANCE: 702,
@@ -55,7 +78,7 @@ const Enums = {
                 MANAGEMENT: 704,
                 LAW: 705,
             },
-            LAW:{
+            LAW: {
                 CRIMINAL_LAW: 800,
                 CIVIL_LAW: 801,
                 ADMINISTRATIVE_LAW: 802
@@ -79,21 +102,45 @@ const Enums = {
                 OPHTHALMOLOGY: 1005,
                 OTOLOGY: 1006,
             },
-            OTHERS:{
+            OTHERS: {
                 OTHERS: 1100,
                 NOVEL: 1101,
                 POETRY: 1102,
                 BIOGRAPHY: 1103,
             }
         },
-        CONDITION:{
+        CONDITION: {
             NEW: 1200,
             USED: 1201,
             OLD: 1202,
-            GOOD:1203,
-            EXCELLENT:1204
+            GOOD: 1203,
+            EXCELLENT: 1204
         }
-    }
+    },
+    PAYMENT: {
+        STATUS: {
+            PENDING: 600,
+            PAID: 601,
+            REFUNDED: 602,
+            FAILED: 603,
+            CANCELLED: 604,
+        },
+        METHOD: {
+            CREDIT_CARD: 700,
+            DEBIT_CARD: 701,
+            UPI: 702,
+            WALLET: 703,
+            NET_BANKING: 704,
+        },
+        PROVIDER: {
+            RAZORPAY: 800,
+            PAYTM: 801,
+            STRIPE: 802,
+            CASHFREE: 803,
+            ASTROUP: 804,
+            PHONEPAY: 805,
+        },
+    },
 
 }
 

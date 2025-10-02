@@ -81,9 +81,14 @@ const loginByPassword = async ({ identifier, password }) => {
         return {
             success: true,
             message: 'Login successful',
-            user: userExists,
             accessToken,
-            refreshToken
+            refreshToken,
+            user: {
+                email: userExists.email,
+                name: userExists.name,
+                mobileNumber: userExists.mobileNumber,
+                role: userExists.role
+            },
         };
     } catch (error) {
         logger.info("AuthService: loginByPassword failed", error);

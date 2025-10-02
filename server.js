@@ -2,7 +2,7 @@ try {
   const logger = require('./utils/logger');
   logger.info('Bootstrapping AstroUp backend...');
   const app = require('./app');
-//   const socket = require('./config/socket');
+  const socket = require('./config/socket');
   const PORT = process.env.PORT || 5000;
   const ENV = process.env.NODE_ENV || 'development';
   const server = app.listen(PORT, () => {
@@ -13,13 +13,13 @@ try {
     process.exit(1);
   });
 
-//   try {
-//     socket.initialize(server);
-//     logger.info('Socket.IO initialized successfully');
-//   } catch (err) {
-//     logger.error('Socket.IO initialization failed:', err);
-//     console.error('Socket.IO error:', err);
-//   }
+  try {
+    socket.initialize(server);
+    logger.info('Socket.IO initialized successfully');
+  } catch (err) {
+    logger.error('Socket.IO initialization failed:', err);
+    console.error('Socket.IO error:', err);
+  }
 
   process.on('unhandledRejection', (err) => {
     logger.error(`Unhandled Rejection: ${err.message}`, err);

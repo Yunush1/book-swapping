@@ -56,9 +56,26 @@ const updateRequestStatus = async (req, res) => {
     }
 }
 
+const getReceivedRequests = async (req, res) => {
+    try {
+        const user = req.user._id;
+        const result = await requistService.getReceivedRequests({ user });
+        logger.info('[request controller]: request fetched successfully', result);
+        return res.status(result.status).json(result);
+    } catch (error) {
+        logger.error(`[REQUEST CONTROLLER]: Error fetching requests: ${error.message}`);
+        return res.status(400).json({
+            status: 400,
+            message: 'Error fetching requests',
+            data: { message: error.message }
+        })
+    }
+}
+
 module.exports = {
     createRequest,
     getRequests,
     deleteRequest,
-    updateRequestStatus
+    updateRequestStatus,
+    getReceivedRequests
 }

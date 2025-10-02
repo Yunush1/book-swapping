@@ -42,8 +42,8 @@ app.get("/", async (req, res) => {
 
 // Global error handler
 app.use((err, req, res, next) => {
-  logger.error(err.stack);
-  res.status(err.statusCode).json({ error: err.message });
+  logger.error(`Middleware Error: ${err.message}`);
+  res.status(err.statusCode).json({success: false, message: err.message });
 });
 
 // Graceful shutdown

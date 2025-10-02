@@ -4,7 +4,7 @@ import { Search, Plus, Book, User, LogOut, Bell, Eye, Heart, MessageSquare, Filt
 import { loginUser, register } from '@/services/auth/auth';
 import { userAgent } from 'next/server';
 import { sign } from 'crypto';
-import { createExchangeRequest, getExchanges, getMyExchangeRequest, getMyExchanges, updateExchangeRequestStatus } from '@/services/exchanges/exchanges';
+import { createExchangeRequest, getExchanges, getMyExchangeRequest, getMyExchanges, getReceivedExchangeRequest, updateExchangeRequestStatus } from '@/services/exchanges/exchanges';
 import { useRouter } from 'next/navigation';
 
 // Context for global state management
@@ -34,6 +34,9 @@ const AppContext = createContext({
   updateRequestStatus: (id: string, status: Number) => { },
   isLoading: false,
   error: null,
+  activeTab: 'sent',
+  setActiveTab: (status: string) => { },
+  received: [],
 });
 
 const useAppContext = () => {
@@ -602,8 +605,8 @@ const MyBooks = () => {
 
 // Simplified other components...
 const RequestsPage = () => {
-  const { requests, updateRequestStatus, isLoading, user } = useAppContext();
-  const [activeTab, setActiveTab] = useState('received');
+  const { requests, updateRequestStatus, isLoading, user, activeTab, setActiveTab, received: receivedRequests } = useAppContext();
+
   const [updatedStatus, setUpdatedStatus] = useState<Number>(0);
   const [acceptingRequest, setAcceptingRequest] = useState(false);
   const STATUS = {
@@ -636,8 +639,8 @@ const RequestsPage = () => {
     }
   }
   // Filter requests based on user role (received vs sent)
-  const receivedRequests = requests.filter(req => req.ownerId === user?.id);
-  const sentRequests = requests.filter(req => req.requesterId === user?.id);
+  // const receivedRequests = receivedRequest.filter(req => req.ownerId === user?.id);
+  // const sentRequests = requests.filter(req => req.requesterId === user?.id);
 
   const handleRequestAction = async (requestId: string, action: Number) => {
     setAcceptingRequest(true);
@@ -747,7 +750,7 @@ const RequestsPage = () => {
           <div className="flex items-center justify-between">
             <div>
               <p className="text-purple-600 text-sm font-medium">Sent Requests</p>
-              <p className="text-2xl font-bold text-purple-900">{sentRequests.length}</p>
+              <p className="text-2xl font-bold text-purple-900">{requests.length}</p>
             </div>
             <div className="p-2 bg-purple-200 rounded-lg">
               <ArrowLeft className="w-5 h-5 text-purple-600" />
@@ -782,7 +785,7 @@ const RequestsPage = () => {
             >
               <div className="flex items-center justify-center space-x-2">
                 <ArrowLeft className="w-5 h-5" />
-                <span>Sent ({sentRequests.length})</span>
+                <span>Sent ({requests.length})</span>
               </div>
             </button>
           </nav>
@@ -895,7 +898,7 @@ const RequestsPage = () => {
 
           {activeTab === 'sent' && (
             <div className="space-y-6">
-              {sentRequests.length === 0 ? (
+              {requests.length === 0 ? (
                 <div className="text-center py-16">
                   <div className="mx-auto w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mb-6">
                     <ArrowLeft className="w-12 h-12 text-gray-400" />
@@ -906,7 +909,7 @@ const RequestsPage = () => {
                   </p>
                 </div>
               ) : (
-                sentRequests.map((request, index) => (
+                requests.map((request, index) => (
                   <div
                     key={request.id}
                     className="bg-gray-50 border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition-all duration-300 hover:border-gray-300"
@@ -1085,13 +1088,14 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
   const [books, setBooks] = useState(mockBooks); // Start with mock data as fallback
   const [myBooks, setMyBooks] = useState([]);
   const [requests, setRequests] = useState([]);
+  const [received, setReceived] = useState([])
   const [selectedBook, setSelectedBook] = useState(null);
   const [editingBook, setEditingBook] = useState(null);
   const [showRequestModal, setShowRequestModal] = useState(false);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
-
+  const [activeTab, setActiveTab] = useState('received');
   // Fixed login function with proper error handling
   const login = async (userData: any) => {
     setIsLoading(true);
@@ -1235,7 +1239,6 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
     setIsLoading(true);
     try {
       const res = await getMyExchanges();
-      console.log('ncjkdcnd', res)
       let booksData = [];
       if (res?.exchanges) {
         booksData = res.exchanges;
@@ -1260,7 +1263,7 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
     setIsLoading(true);
     try {
       const { data: res } = await getMyExchangeRequest();
-
+      console.log('Sent data', res)
       // Process requests data based on actual API response
       if (res?.data || res?.requests) {
         const requestsData = res.data || [];
@@ -1273,6 +1276,25 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
       setIsLoading(false);
     }
   };
+
+  const getMyExchangeRequestReceived = async () => {
+    setIsLoading(true);
+    try {
+      const { data: res } = await getReceivedExchangeRequest();
+      console.log('Received data', res)
+      // Process requests data based on actual API response
+      if (res?.data || res?.requests) {
+        const requestsData = res.data || [];
+        setReceived(Array.isArray(requestsData) ? requestsData : []);
+      }
+
+    } catch (error: any) {
+      console.error('Error fetching requests:', error);
+      setError('Failed to load requests.');
+    } finally {
+      setIsLoading(false);
+    }
+  }
 
   // Check authentication on mount
   useEffect(() => {
@@ -1301,14 +1323,24 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
       case 'browse':
         getAllBooks();
         break;
+
       case 'myBooks':
         getMyBooks();
         break;
+
       case 'requests':
-        getMyExchangeRequests();
+        if (activeTab === 'sent') {
+          getMyExchangeRequests();
+        } else {
+          getMyExchangeRequestReceived();
+        }
+        break;
+
+      default:
         break;
     }
-  }, [currentView, isAuthenticated]);
+  }, [currentView, isAuthenticated, activeTab]);
+
 
   const logout = () => {
     setUser(null);
@@ -1398,6 +1430,10 @@ const AppProvider = ({ children }: { children: React.ReactNode }) => {
     updateRequestStatus,
     isLoading,
     error,
+    activeTab,
+    setActiveTab,
+    received,
+    setReceived
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;

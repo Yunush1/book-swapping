@@ -34,17 +34,17 @@ export const getMyExchanges = async () => {
         const response = await api.get("/exchanges/my/exchages");
         return response.data;
     } catch (error) {
-        console.error("GET MY EXCHANGES",error);
+        console.error("GET MY EXCHANGES", error);
         return error;
     }
 };
 
-export const createExchangeRequest = async ({ bookId, message ,owner}) => {
+export const createExchangeRequest = async ({ bookId, message, owner }) => {
     try {
         const response = await api.post(`/requests`, {
             message,
             exchange: bookId,
-            owner:owner.id
+            owner: owner.id
         });
         return response.data;
     } catch (error) {
@@ -53,7 +53,7 @@ export const createExchangeRequest = async ({ bookId, message ,owner}) => {
     }
 };
 
-export const getMyExchangeRequest = async ()=>{
+export const getMyExchangeRequest = async () => {
     try {
         console.log('getMyExchangeRequest')
         const res = await api.get('/requests');
@@ -65,11 +65,21 @@ export const getMyExchangeRequest = async ()=>{
 }
 
 export const updateExchangeRequestStatus = async (requestId: string, action: Number) => {
-  try {
-    const res = await api.put(`/requests/${requestId}`, { status: action });
-    return res;
-  } catch (error) {
-    console.error(error);
-    return error;
-  }
+    try {
+        const res = await api.put(`/requests/${requestId}`, { status: action });
+        return res;
+    } catch (error) {
+        console.error(error);
+        return error;
+    }
+}
+
+export const getReceivedExchangeRequest = async () => {
+    try {
+        const res = await api.get('/requests/received');
+        return res;
+    } catch (error) {
+        console.error(error);
+        return error;
+    }
 }

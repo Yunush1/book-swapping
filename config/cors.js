@@ -5,7 +5,7 @@ const allowedOrigins = (process.env.CLIENT_URLS || '')
   .filter(origin => origin.length > 0);
 const fallbackOrigins = [
   'http://localhost:3000',
-  'https://book-swapping.netlify.app/',
+  'https://book-swapping.netlify.app',
 ];
 
 const corsOptions = {

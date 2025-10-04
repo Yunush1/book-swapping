@@ -6,6 +6,7 @@ const allowedOrigins = (process.env.CLIENT_URLS || '')
 const fallbackOrigins = [
   'http://localhost:3000',
   'https://book-swapping.netlify.app',
+  'https://book-swapping-viyi.vercel.app'
 ];
 
 const corsOptions = {
